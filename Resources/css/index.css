@@ -1,0 +1,133 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    background-color: ivory;
+    opacity: 20;
+    color: darkslategray;
+  }
+   
+
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+  }
+   
+  h2{
+    text-align: center;
+    font-size: 28px;
+  }
+
+  h3{
+    font-size: 24px;
+  }
+   
+  p{
+    font-size: 20px;
+    text-align: left;
+  }
+
+  a{
+    font-size: 20px;
+  }
+
+  video{
+    margin: 10px 10px;
+    border:  5px solid white;
+  }
+
+  
+  .linkedin{
+    text-align: center;
+  }
+
+  #header{
+    align-items: baseline;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .intro{
+    margin: 5px 70px 5px 50px;
+    text-align: left;
+  }
+
+  .intro-picture{
+    height: 500px;
+    width: auto;
+    padding: 10px;
+    margin: 10px 50px 20px;
+    border:  5px solid cadetblue;
+  }
+
+  .contact-picture{
+    height: 500px;
+    width: auto;
+    padding: 10px;
+    margin: 10px 50px 20px;
+    border:  5px solid darkslategray;
+  }
+
+  .line-break{
+    width: 95%;
+    color: darkslategray; 
+  }
+
+  #intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #section-links{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .section-links{
+    margin: 50px;
+    text-align: center;
+  }
+
+  #contact-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #contact-details{
+    text-align: center;
+  }
+
+  .product-history{
+    border: 3px solid cadetblue;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 40%;
+  }
+
+  #projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  table, th, td {
+    border: 1px solid darkslategray;
+    border-collapse: collapse;
+  }
+  th {
+background-color: cadetblue;
+font-weight:bolder
+  }
+  td{background-color: #cfe2e2}
+
+  
+
+  .table{background-color:#cfe2e2;
+    font-weight:bolder
+}
